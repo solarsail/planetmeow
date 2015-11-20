@@ -11,14 +11,16 @@ STATIC_PATHS = ['blog', 'image', 'page']
 ARTICLE_PATHS = ['blog']
 
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['cjk-auto-spacing', 'render_math']
+PLUGINS = ['cjk-auto-spacing', 'render_math', 'tipue_search']
+
+THEME = "pelican-themes/pelican-bootstrap3"
 
 TIMEZONE = 'Asia/Shanghai'
 DEFAULT_DATE = 'fs'
 
 DEFAULT_LANG = u'zh'
 
-FORMATTED_FIELDS = ['title']
+#FORMATTED_FIELDS = ['title']
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -43,3 +45,4 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 CJK_AUTO_SPACING_TITLE = True
+DIRECT_TEMPLATES = (('search',))
