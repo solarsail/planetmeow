@@ -18,6 +18,8 @@ DEFAULT_DATE = 'fs'
 
 DEFAULT_LANG = u'zh'
 
+FORMATTED_FIELDS = ['title']
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
