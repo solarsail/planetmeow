@@ -87,8 +87,10 @@ Tags: gcc, c, debug
 
     $ ./test | ./pretty_printer.awk -v binary=test
 
-可以得到类似下面的输出：
+可以得到类似下面的输出（截取了一部分）：
 
 ![result]({filename}/image/gcc-finstrument-functions-result.png)
 
 这样就好看多了。（开头的 `??` 是 glibc 中的函数，所以无法显示。）
+
+为了让输出更具可读性，可以修改脚本，采用缩进或颜色配对等方式进行输出。

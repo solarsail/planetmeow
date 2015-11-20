@@ -15,7 +15,7 @@ Tags: c, tip
     /lib64/libc.so.6(__libc_start_main+0xf5)[0x7fe9d6358af5]
     ??:?(_start)[0x4004b9]
 
-So easy. 但是如果要调试的是个后台服务程序，就需要稍微复杂一点的办法。
+即为程序崩溃时的函数调用栈，So easy. 但是如果要调试的是个后台服务程序，就需要稍微复杂一点的办法。
 
 基本思路是`sigaction()` + `backtrace()`。首先定义信号处理函数：
 

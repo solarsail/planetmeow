@@ -1,10 +1,10 @@
-Title: 向$2^n$上取整
+Title: 向2^n上取整
 Category: 技巧
 Tags: c, tip
 
 在代码中看到类似这样的语句：
 
-    :::
+    :::c
     int m = 1 << n - 1;
     int y = (x + m) & ~m;
 
