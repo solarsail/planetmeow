@@ -11,7 +11,7 @@ STATIC_PATHS = ['blog', 'image', 'page']
 ARTICLE_PATHS = ['blog']
 
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['cjk-auto-spacing', 'render_math', 'tipue_search']
+PLUGINS = ['cjk-auto-spacing', 'render_math']
 
 THEME = "pelican-themes/pelican-bootstrap3"
 
@@ -45,4 +45,4 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 CJK_AUTO_SPACING_TITLE = True
-DIRECT_TEMPLATES = (('search',))
+#DIRECT_TEMPLATES = (('search',))
