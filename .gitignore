@@ -55,3 +55,7 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# pelican
+output/
+pelican-plugins/
