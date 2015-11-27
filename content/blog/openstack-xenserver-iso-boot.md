@@ -1,7 +1,7 @@
 Title: 在基于XenServer的OpenStack中使用ISO镜像引导安装Windows
 Category: 经验
 Date: 2015-11-28 15:20
-Tags: c, tip
+Tags: openstack, xenserver, iso, tip
 
   部署环境为DevStack的Liberty版
 

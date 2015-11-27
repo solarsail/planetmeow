@@ -12,10 +12,10 @@ FTP_HOST=localhost
 FTP_USER=anonymous
 FTP_TARGET_DIR=/
 
-SSH_HOST=planetmeow.net
+SSH_HOST=45.62.109.192
 SSH_PORT=28096
-SSH_USER=higgs
-SSH_TARGET_DIR=/var/www
+SSH_USER=root
+SSH_TARGET_DIR=/var/www/html
 
 S3_BUCKET=my_s3_bucket
 

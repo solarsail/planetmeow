@@ -11,9 +11,10 @@ STATIC_PATHS = ['blog', 'image', 'page']
 ARTICLE_PATHS = ['blog']
 
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['cjk-auto-spacing', 'render_math']
+PLUGINS = ['cjk-auto-spacing', 'render_math', 'tag_cloud']
 
 THEME = "pelican-themes/pelican-bootstrap3"
+BOOTSTRAP_THEME = 'lumen'
 
 TIMEZONE = 'Asia/Shanghai'
 DEFAULT_DATE = 'fs'
@@ -29,15 +30,18 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+DISPLAY_TAGS_INLINE = True
+DISPLAY_RECENT_POSTS_ON_SIDEBAR = True
+TAGS_URL = 'tags.html'
+DIRECT_TEMPLATES = ['index', 'categories', 'authors', 'archives', 'search']
+
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+         ('Jinja2', 'http://jinja.pocoo.org/'))
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = ()
 
 DEFAULT_PAGINATION = 10
 
@@ -45,4 +49,3 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 CJK_AUTO_SPACING_TITLE = True
-#DIRECT_TEMPLATES = (('search',))
