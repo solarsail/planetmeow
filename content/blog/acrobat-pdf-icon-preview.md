@@ -2,6 +2,7 @@ Title: 恢复 Adobe Acrobat 图标预览
 Category: 技巧
 Date: 2015-12-08 20:24
 Tags: acrobat
+Slug: acrobat-pdf-icon-preview
 
 Windows 10 一次升级后，pdf文件的默认应用被改成了edge。手动把文件关联改为Acrobat之后，pdf文件的图标预览没有了。在网上找到如下办法：
 

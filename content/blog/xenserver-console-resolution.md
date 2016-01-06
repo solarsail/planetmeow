@@ -2,6 +2,7 @@ Title: 调整XenServer控制台分辨率
 Category: 技巧
 Date: 2015-12-14 15:53
 Tags: xenserver, kernel
+Slug: xenserver-console-resolution
 
 XenServer默认使用80列控制台，在大屏幕上显示效果很差。如果希望充分利用屏幕分辨率，则需要修改内核启动参数。
 

@@ -2,6 +2,7 @@ Title: 在段错误时打印（醒目！）调用栈
 Category: 技巧
 Date: 2015-06-21 19:20
 Tags: c
+Slug: pretty-backtrace-on-sigsegv
 
 刚写好的程序，被`SIGSEGV`挂掉是难免的。为了省事起见，在程序收到`SIGSEGV`终止的时候打印一下调用栈是不错的选择。
 

@@ -2,6 +2,7 @@ Title: 使用OpenStack向XenServer虚拟机中挂载的磁盘无法工作
 Category: 经验
 Date: 2016-01-04 15:50
 Tags: openstack, xenserver, iscsi
+Slug: attach-volume-to-xenserver-vm-failed-in-openstack
 
 通过dashboard可以在volume面板中直接建立虚拟磁盘并将其挂载至虚拟机。
 

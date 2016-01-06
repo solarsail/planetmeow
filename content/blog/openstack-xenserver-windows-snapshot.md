@@ -2,6 +2,7 @@ Title: 在使用XenServer的OpenStack中从快照启动Windows虚拟机
 Category: 经验
 Date: 2016-01-05 13:27
 Tags: openstack, xenserver, snapshot
+Slug: boot-windows-snapshot-in-openstack-upon-xenserver
 
 从正在运行的Windows虚拟机创建快照，再从快照启动新虚拟机时，可能会出现错误导致无法启动。在nova的日志中可以看到来源于XenServer的错误信息：
 

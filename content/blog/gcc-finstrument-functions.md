@@ -2,6 +2,7 @@ Title: 使用 gcc 的 -finstrument-functions 编译选项进行调试
 Category: 调试
 Date: 2015-10-03 21:57
 Tags: gcc, c, debug
+Slug: debug-using-gcc-finstrument-functions-option
 
 编程时为了调试需要，经常想把函数的调用关系列出来。在每个函数的开头和结尾加日志输出语句比较繁琐，希望有更简洁的方法。于是就找到了 `-finstrument-functions` 编译选项。
 
