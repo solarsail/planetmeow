@@ -1,7 +1,7 @@
 Title: 向2^n上取整
 Category: 技巧
 Date: 2015-08-09 18:11
-Tags: c, tip
+Tags: c
 
 在代码中看到类似这样的语句：
 

@@ -14,7 +14,7 @@ PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['cjk-auto-spacing', 'render_math', 'tag_cloud']
 
 THEME = "pelican-themes/pelican-bootstrap3"
-BOOTSTRAP_THEME = 'lumen'
+BOOTSTRAP_THEME = 'flatly'
 
 TIMEZONE = 'Asia/Shanghai'
 DEFAULT_DATE = 'fs'

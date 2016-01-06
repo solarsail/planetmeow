@@ -1,7 +1,7 @@
 Title: 在段错误时打印（醒目！）调用栈
 Category: 技巧
 Date: 2015-06-21 19:20
-Tags: c, tip
+Tags: c
 
 刚写好的程序，被`SIGSEGV`挂掉是难免的。为了省事起见，在程序收到`SIGSEGV`终止的时候打印一下调用栈是不错的选择。
 
@@ -20,7 +20,7 @@ Tags: c, tip
 
 基本思路是`sigaction()` + `backtrace()`。首先定义信号处理函数：
 
-    :::c linenums="True" hl_lines="12 14"
+    :::c hl_lines="12 14"
     #include <execinfo.h>
     #include <stdio.h>
     #include <stdlib.h>
