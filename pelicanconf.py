@@ -7,8 +7,12 @@ SITENAME = u'PlanetMeow'
 SITEURL = ''
 
 PATH = 'content'
-STATIC_PATHS = ['image', 'page']
+STATIC_PATHS = ['image', 'page', 'extra/favicon.ico']
 ARTICLE_PATHS = ['blog']
+
+EXTRA_PATH_METADATA = {
+    'extra/favicon.ico': {'path': 'favicon.ico'}
+}
 
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['cjk-auto-spacing', 'render_math', 'tag_cloud']

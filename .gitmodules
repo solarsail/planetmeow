@@ -1,0 +1,9 @@
+[submodule "pelican-themes/pelican-bootstrap3"]
+	path = pelican-themes/pelican-bootstrap3
+	url = https://github.com/DandyDev/pelican-bootstrap3.git
+[submodule "pelican-plugins/cjk-auto-spacing"]
+	path = pelican-plugins/cjk-auto-spacing
+	url = https://github.com/yuex/cjk-auto-spacing.git
+[submodule "pelican-plugins/render_math"]
+	path = pelican-plugins/render_math
+	url = https://github.com/barrysteyn/pelican_plugin-render_math.git
