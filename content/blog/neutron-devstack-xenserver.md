@@ -1,8 +1,8 @@
 Title: 在使用XenServer的DevStack中部署Neutron
 Category: 技巧
 Date: 2016-01-14 13:18
-Tags: devstack, XenServer, neutron
-Slug: neutron-devstack-XenServer
+Tags: devstack, xenserver, neutron
+Slug: neutron-devstack-xenserver
 
 ### 部署环境
 
