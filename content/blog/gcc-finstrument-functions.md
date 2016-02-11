@@ -1,5 +1,5 @@
 Title: 使用 gcc 的 -finstrument-functions 编译选项进行调试
-Category: 调试
+Category: 技巧
 Date: 2015-10-03 21:57
 Tags: gcc, c, debug
 Slug: debug-using-gcc-finstrument-functions-option

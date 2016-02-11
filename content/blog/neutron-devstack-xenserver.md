@@ -1,5 +1,5 @@
 Title: 在使用XenServer的DevStack中部署Neutron
-Category: 技巧
+Category: 经验
 Date: 2016-01-14 13:18
 Tags: devstack, xenserver, neutron
 Slug: neutron-devstack-xenserver

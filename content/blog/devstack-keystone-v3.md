@@ -1,5 +1,5 @@
 Title: 在DevStack中使用v3版keystone API
-Category: 技巧
+Category: 经验
 Date: 2015-12-18 17:20
 Tags: openstack, horizon, keystone
 Slug: use-keystone-api-v3-in-devstack-liberty
